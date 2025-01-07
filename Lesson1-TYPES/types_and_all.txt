@@ -1,0 +1,38 @@
+Java lezvum kan 8 tiper dranq en boolean, byte, char, short, int, long, float, double: byte, short, int, long-@ ays tesaknerov artahaytvum en
+miayn amboxj tver: isk float-ov, double-ov artahaytvum en miayn tasnordakan tver. boolean tesak@ @ndunum e jisht kam sxal(true or false) arjeqner@:
+teqsteri u nshanneri hamar ogtagorcvuma char-@ ev String@(String@ tip chi).char-@ ir mej karoxe nerarel @ndamen@ mek sinvol
+(tiv tar voreve nshan, orinak char name = 'U';) isk String@ ogtagorcvuma teqsteri hamar (orinak String name = "amis or taretiv"):
+
+Amboxj tver`
+byte=8bits=1 byte, karoxe ir mej nerarel -128-127 tver@;
+Short=16bits=2 byte, karoxe ir mej nerarel -32768-32767 tver@;
+int=32bits=4 byte, karoxe ir mej nerarel -2.147.483.648 - 2.147.483.647 tver@;
+long=64bits=8 byte, karoxe ir mej nerarel -9.223.372.036.854.775.808 - 9.223.372.036.854.775.807 tver@;
+
+tasnordakan tver`
+float=int unen nuyn erkarutyun@
+double=long unen nuyn erkarutyun@
+chka shorti kam byte i erkarutyan tasnordakan tip qani vor (entadrenq unenq float = 6.8; (.)-ket@ ogtagorcelu hamar kiravum e 1 byte
+
+Java lezvi operatorner@`
++ gumarum 
+- hanum
+* bazmapatkum
+/ bajanum
+% hashvum e mnacord@
+! jxtum e 
+
+> meci nshan
+>= mec kam havasar e
+< poqri nshan
+<= poqr kam havasar e
+== pndum e vor havasar e, A == B stugum e erku arjeqner@ havasar en te voch, ete havasar exav apa da jishte ete voch sxal (true and false)
+!= pndum e vor havasar che, A != B stugum e, ete arjeqner@ havasar chexan apa ays gorcoxutyun@ (A != B) jiste)
+ 
+++ avelacnum e 1 ov orinak B++ ete B=15 apa B++ = 16
++= ajum grvac arjeqin avelacnum e dzaxi arjeq@ ev ayn veragrum ajinin orinak A += B, parz orinak A = A + B (A+=B = A=A+B)
+-= dzaxum grvac arjeqic hanum e ajum grvac arjeq@ ev ayn veragrum dzaxi arjeqin orinak A -= B, parz orinak A = A - B (A-=B = A=A-B)
+*= ajum grvac arjeq@ bazmapatkum e dzaxi arjeqov ev ayn veragrum dzaxi arjeqin orinak A *= B, parz orinak A = A * B (A*=B = A=A*B)
+/= dzaxum grvac arjeq@ bajanum e aji arjeqi vra ev veragrum dzaxi arjeqin orinak A /= B, parz orinak A = A / B (A/=B = A=A/B)
+%= hashvume erku arjeqneri mnacord@ ev veragrum dzax arjeqin orinak A %= B, parz orinak A = A % B (A%=B = A=A%B) 
+-- arjeqic hanum e 1 C-- ete C=24 apa C-- = 23
