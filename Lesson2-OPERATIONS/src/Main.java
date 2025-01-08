@@ -42,9 +42,9 @@ public class Main {
         System.out.println(!vv);
 
 
-        System.out.println(5&6); //hashvel erkuakan@ bazmapatkel heto stacac@ veracel tasakani
-        System.out.println(5|6); //hashvel erkuakan@ gumarel heto stacac@ veracel tasakani
-        System.out.println(5^6); //XOR
+        System.out.println(5 & 6); //hashvel erkuakan@ bazmapatkel heto stacac@ veracel tasakani
+        System.out.println(5 | 6); //hashvel erkuakan@ gumarel heto stacac@ veracel tasakani
+        System.out.println(5 ^ 6); //XOR
 
 
     }
